@@ -1,21 +1,41 @@
 
-let submit = () => {
 
+let submit = () => {
+    //array
     let studentDetails = []
+
+    //getname
     let studentName = document.getElementById("sname")
     studentDetails.push(studentName.value)
+
+    //get tamil mark
     let tamilMark = document.getElementById("tamil")
     studentDetails.push(Number(tamilMark.value))
+
+    //get english mark
     let englishMark = document.getElementById("english")
     studentDetails.push(Number(englishMark.value))
+
+    //get maths mark
     let mathsMark = document.getElementById("maths")
     studentDetails.push(Number(mathsMark.value))
+
+    //get science mark
     let scienceMark = document.getElementById("science")
     studentDetails.push(Number(scienceMark.value))
+
+    // get social mark
     let socialMark = document.getElementById("social")
     studentDetails.push(Number(socialMark.value))
+
+    //total()
     let TOT = total(studentDetails)
+
+    //avg()
     let AVG = avg(studentDetails, TOT)
+
+
+    // ---------------------------------------
 
     //Name
     let outDetailsName = document.createElement("div")
