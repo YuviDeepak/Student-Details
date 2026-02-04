@@ -22,23 +22,48 @@
                 <input type="number" id="tamil">
                 <span id="terr" style="color: red;"></span>
             </div>
+
             <div class="marke st">
                 <label for="english">English-Mark :</label>
                 <input type="number" id="english">
                 <span id="eerr" style="color: red;"></span>
             </div>
-            <label for="maths">Maths-Mark :</label>
-            <input type="number" id="maths">
-            <label for="science">Science-Mark :</label>
-            <input type="number" id="science">
-            <label for="social">Social-Mark :</label>
-            <input type="number" id="social">
+
+            <div class="markm st">
+                <label for="maths">Maths-Mark :</label>
+                <input type="number" id="maths">
+                <span id="merr" style="color: red;"></span>
+            </div>
+
+            <div class="marks st">
+                <label for="science">Science-Mark :</label>
+                <input type="number" id="science">
+                <span id="serr" style="color: red;"></span>
+            </div>
+
+            <div class="marko st">
+                <label for="social">Social-Mark :</label>
+                <input type="number" id="social">
+                <span id="serr" style="color: red;"></span>
+            </div>
             <div class="but">
                 <button onclick="submit()">Submit</button>
             </div>
         </div>
         <div class="output" id="output">
             <h1>Output</h1>
+            <div class="outname oo" >
+                <h3>Student Name:</h3>
+                <h3 id="outname"></h3>
+            </div>
+            <div class="outtot oo" >
+                <h3>Total Marks:</h3>
+                <h3 id="outtot"></h3>
+            </div>
+            <div class="outavg oo" >
+                <h3>Average Marks:</h3>
+                <h3 id="outavg"></h3>
+            </div>
         </div>
     </div>
 
